@@ -1,0 +1,505 @@
+
+   /* table */
+.table-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  max-width: 720px;
+  border-radius: 1.2rem;
+  overflow: auto;
+  box-shadow: 0 0 10px  var(--color-box-shadow);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-card-dark);
+}
+
+.list-table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+.list-table thead th {
+  background: rgba(17, 24, 29, 1); 
+  padding: 0.4rem 0.6rem;
+  color: rgb(225, 225, 225);
+  font-weight: 500;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  z-index: 15;
+  text-align: center;
+}
+
+
+.list-table tbody td {
+  color: rgb(225, 225, 225);
+  padding: 0;
+  border-bottom: 1px solid var(--color-search);
+  padding-left: 0.5rem;
+  cursor: context-menu;
+  max-height: 20px;
+  word-wrap: break-word;
+  position: relative;
+  text-align: center;
+}
+
+.list-table tbody td:nth-last-child(1) {
+  text-align: start;
+}
+
+
+.list-table tbody tr.stretch {
+  width: 100%;
+}
+
+.list-table tbody tr {
+  height: 2rem;
+}
+
+.list-table tbody tr:nth-child(even) {
+  background: rgba(57, 68, 85, 0.612);
+}
+
+.list-table tbody tr:hover {
+  background: black ;
+}
+
+
+
+
+.te-ip-status span{
+  margin-right: 2rem;
+}
+
+.scanner {
+  padding-left: 5px;
+}
+
+.terminalText {
+  padding: 0 0.6rem;
+  font-family: "Fira Code", monospace;
+  line-height: 25px;
+  color: #c3d1c3;
+}
+
+.db-msg  {
+  padding: 0 0.6rem;
+  font-family: "Fira Code", monospace;
+  line-height: 25px;
+  color: #c3d1c3;
+}
+
+.de-port-result {
+    width: 47rem;
+    height: auto;
+    margin-left: 2rem;
+}
+
+.de-port-result dt {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.de-port-result dd {
+    margin-bottom: 2px;
+    margin-left: 2rem;
+    text-align: start;
+}
+
+.de-port-result dd:nth-last-child(1) {
+    margin-bottom: 1rem;
+}
+
+.start-result {
+    text-align: left;
+}
+
+
+.start-result tr td {
+    padding-left: 1rem;
+}
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+  
+  /* Box 1 */
+  .dashboard {
+    display: flex;
+  }
+
+  .box-1 {
+    width: 40rem;
+    height: 89vh;
+    margin-top: 10px;
+    background-color: var(--color-card-dark);
+    border-radius: 1.2rem;
+    box-shadow: 0 0 15px  var(--color-box-shadow);
+  }
+
+  .card-1 {
+    width: 100%;
+    height: 40%;
+    background-color: var(--color-card-dark-bold);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-2 {
+    width: 100%;
+    height: 54.5%;
+    background-color: var(--color-card-dark-bold);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .side-box {
+    width: 56%;
+    height: 89vh;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+
+  .card-3 {
+    width: 53.2rem;
+    height: 100%;
+    background-color: var(--color-card-dark);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px  var(--color-box-shadow);
+  }
+
+.fa-text-middle {
+    background: var(--color-card-dark-bold);
+    padding-left: 20px;
+    height: 2rem;
+    font-family: 'VT323', monospace;
+    font-size: 1.9rem;
+    color: greenyellow;
+    font-weight: 700;
+    position: relative;
+}
+
+  /* card 1 */
+/* input-field */
+.port-sacn {
+    width: 96%;
+    height: 92%;
+    border-radius: 20px;
+    border: 1px solid var(--color-border);
+    position: relative;
+    padding: 1rem;
+    box-shadow: 0 0 10px  var(--color-box-shadow);
+    background-color: var(--color-card-dark);
+}
+
+.first-line {
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.input-field {
+  margin-top: 5px;
+  position: relative;
+  height: 35px;
+  width: 290px;
+  line-height: 30px;
+}
+
+.input-field input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-size: 0.90rem;
+  padding: 0 15px;
+  line-height: 30px;
+  border-radius: 6px;
+  border: 1px solid var(--color-border-bold);
+  background: transparent;
+  transition: 0.1s ease;
+  z-index: 1111;
+  color: white;
+}
+
+.port-input-box {
+  position: relative;
+  height: 35px;
+  width: 210px;
+  line-height: 20px;
+}
+
+.port-input-box input{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-size: 0.90rem;
+  padding: 0 15px;
+  line-height: 30px;
+  border-radius: 6px;
+  background: transparent;
+  transition: 0.1s ease;
+  z-index: 1111;
+  top: 2px;
+}
+
+
+.input-field input:focus,
+.input-field input:valid
+{
+  color: white;
+  border: 1px solid var(--color-search);
+}
+
+.port-input-box input:focus,
+.port-input-box input:valid {
+  color: white;
+  border: 1px solid var(--color-search);
+}
+
+.input-field input::placeholder, .port-input-box input::placeholder {
+  color: white;
+  
+}
+
+.second-line {
+  display: flex;
+  padding: 10px 20px;
+}
+
+
+fieldset {
+  width: 200px;
+  padding: 0.9rem;
+  border: 2px solid var(--color-border);
+  border-radius: 10px;
+}
+
+legend {
+  font-size: 15px;
+}
+
+fieldset label {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.save-btn {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  height: 35px;
+  width: 332px;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.save-btn input {
+  width: 160px;
+  height: 35px;
+  padding: 0 1rem;
+  color: white;
+  background:  transparent;
+  outline: none;
+  border: 2px solid var(--color-search);
+  border-radius: 10px;
+}
+
+.save-btn button {
+  width: 60px;
+  height: 35px;
+  background-color: transparent;
+  color:  white;
+  font-size: 19px;
+  font-weight: 500;
+  border-radius: 5px;
+  font-family: 'VT323', monospace;
+  border: 2px solid var(--color-border);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.save-btn button:hover,
+.aggscan button:hover {
+  background: #000;
+}
+
+
+/* deep scan button */
+
+.aggscan button {
+  width: 90px;
+  height: 35px;
+}
+
+.fa-btn {
+  width: 6rem;
+  height: 2.4rem;
+  position:absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.fa-btn button {
+  color: black;
+  width: 100%;
+  height: 100%;
+  background: var(--color-text-white);
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 5px;
+  border: 1px solid var(--color-border);
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: 0.2s ease;
+}
+
+
+.fa-btn button:hover {
+  background: black;
+  color: var(--color-text-white);
+}
+
+
+
+.result-view {
+  width: 96%;
+  height: 97%;
+  border-radius: 20px;
+  border: 1px solid var(--color-border);
+}  
+
+.fa-res {
+  position: relative;
+  right: 40rem;
+  top:9rem;
+}
+
+
+
+#stat {
+  background: #11181d;
+  color: rgb(225, 225, 225);
+  border: 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#stat option:nth-child(2) {
+  color: red;
+}
+
+#stat option:nth-child(3) {
+  color: green;
+}
+
+
+/* card-3 */
+
+/* card 3 */
+.result {
+  width: 96%;
+  height: 96%;
+  border-radius: 20px;
+  color: white;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 1rem 0.9rem;
+  box-shadow: 0 0 6px  var(--color-box-shadow) inset;
+  background-color: var(--color-card-dark);
+}
+
+.welc-txt {
+  width: 100%;
+  position: relative;
+  top: -11rem;
+  transition: 0.2s ease;
+  height: 12rem;
+  user-select: none;
+}
+
+.welc-txt p {
+  color: rgba(255, 255, 255, 0.79);
+}
+
+.welc-txt span {
+  margin-left: 12rem;
+  color: var(--color-text-white);
+} 
+
+/* script-display */
+
+.h3-deta {
+    background-color: white;
+    display: inline-block;
+    color: black;
+    font-weight: 600;
+    padding: 0rem 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.script-display {
+    margin-left: 2rem;
+}
+
+.script-display dt {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.script-display dd {
+    white-space: pre-line;
+}
+
+/* speed-type */
+
+.speed-type {
+  display: inline-flex;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid var(--color-search);
+}
+
+.radio-input {
+  display: none;
+}
+
+.radio-label {
+  padding: 3px 14px;
+  width: 100%;
+  font-size: 20px;
+  background: #251e3f;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-family: 'VT323', monospace;
+}
+
+
+.radio-label:not(:last-of-type) {
+  border-right: 1px solid var(--color-search);
+}
+
+.radio-input:checked + .radio-label {
+  background: var(--color-border);
+}
+

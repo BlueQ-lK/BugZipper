@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm run dev:vue\" \"npm run dev:python\"",
+    "dev:vue": "cd frontend && npm run dev",
+    "dev:python": "cd backend && env\\Scripts\\activate.bat && python main.py"
+  }
+}

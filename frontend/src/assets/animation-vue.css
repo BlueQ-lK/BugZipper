@@ -1,0 +1,14 @@
+.animation-1 {
+    animation: txt-animation .5s ease-in 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes txt-animation {
+    from{
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(11rem);
+    }
+
+}
