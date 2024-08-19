@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "concurrently \"npm run dev:vue\" \"npm run dev:python\"",
     "dev:vue": "cd frontend && npm run dev",
-    "dev:python": "cd backend && python main.py"
+    "dev:python": "cd backend && python main.py",
+    "install:all": "npm install && cd frontend && npm install && cd .."
   }
 }
