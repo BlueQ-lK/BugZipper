@@ -7,7 +7,7 @@ A port scanner with a user-friendly web interface for scanning and analyzing ope
 
 ## Screenshots
 
-![imag1](https://github.com/user-attachments/assets/b24fccd0-ae05-4811-b1c5-f243c27d0ac6)
+![Image](https://github.com/user-attachments/assets/b759c972-e719-4ec7-9b45-1133a8e91d63)
 
 ![image2](https://github.com/user-attachments/assets/26fe7872-7811-4b92-ad71-16aeae2e24a6)
 
